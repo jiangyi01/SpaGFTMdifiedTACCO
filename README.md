@@ -21,6 +21,12 @@ Install SpaGFT from pypi via `pip`:
 pip install SpaGFT
 ```
 
+We recommend [jupyter](https://jupyter.org/) for interactive usage. It can be installed and configured by
+```bash
+conda install jupyter
+python -m ipykernel install --user --name=spagft_tacco_env --display-name=spagft_tacco_env
+```
+
 ## How to use modified TACCO
 
 Modified TACCO features a straightforward API for the compositional annotation of one dataset, given as an anndata object `adata`, with a categorically annotated second dataset, given as an anndata object `reference`.
